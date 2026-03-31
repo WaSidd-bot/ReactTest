@@ -1,5 +1,6 @@
 import CubicInput from "./components/CubicInput.tsx";
 import CubicTable from "./components/CubicTable.tsx";
+import CubicEquation from "./components/CubicEquation.tsx";
 import { useState } from 'react'
 import './App.css'
 
@@ -16,6 +17,7 @@ function App() {
       <div>
        <CubicInput onSubmit={setCoefficients}/>
        <CubicTable coefficients={coefficients}/>
+       <CubicEquation coefficients={coefficients}/>
       </div>
     </>
   )
