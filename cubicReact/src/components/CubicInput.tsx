@@ -36,10 +36,10 @@ export default function CubicInput({ onSubmit }: Props) {
                 <label>b-value:</label>
                 <label>c-value:</label>
                 <label>d-value:</label>
-                <input type="number" className="inputs" id="a" name="a" onChange={handleChange}/>
-                <input type="number" className="inputs" id="b" name="b" onChange={handleChange}/>
-                <input type="number" className="inputs" id="c" name="c" onChange={handleChange}/>
-                <input type="number" className="inputs" id="d" name="d" onChange={handleChange}/>
+                <input type="number" className="inputs" id="a" name="a" onChange={handleChange} step="any"/>
+                <input type="number" className="inputs" id="b" name="b" onChange={handleChange} step="any"/>
+                <input type="number" className="inputs" id="c" name="c" onChange={handleChange} step="any"/>
+                <input type="number" className="inputs" id="d" name="d" onChange={handleChange} step="any"/>
                 <input type="submit" className="button" value="calculate" name="submit" />
                 <input type="text" id="result" name="result" />
             </form>

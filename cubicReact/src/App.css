@@ -58,11 +58,18 @@ h1{
   left: 45%;
 }
 
-table {
+.cubicTable {
   margin-top: 100px;
   border-width: 10px;
   position: absolute;
   right: 65%;
+}
+
+.cubicHistory {
+  margin-top: 350px;
+  border-width: 10px;
+  position: absolute;
+  right: 70%;
 }
 
 

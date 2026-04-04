@@ -44,7 +44,7 @@ export default function CubicTable({ coefficients }: Props) {
 
     return (
         <div>
-            <table>
+            <table className="cubicTable">
                 <tr>
                     <td>p value</td>
                     <td id="pDisplay">{pValue}</td>
